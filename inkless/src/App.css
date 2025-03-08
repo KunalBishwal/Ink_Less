@@ -1,0 +1,17 @@
+/* src/App.css */
+
+/* Keyframes for a subtle blob animation */
+@keyframes blob {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  /* We can reuse this class on multiple background divs */
+  .animate-blob {
+    animation: blob 8s infinite;
+  }
+  
